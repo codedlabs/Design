@@ -15,9 +15,10 @@ public class DropdownitemSelected : MonoBehaviour
         var dropdown = transform.GetComponent<Dropdown>();
         dropdown.options.Clear();
         List<string> items = new List<string>();
-        items.Add("2x3");
-        items.Add("4x4");
-        items.Add("5x6");
+        items.Add("2x3x3");
+        items.Add("4x4x4");
+        items.Add("5x5x7");
+        items.Add("6x7x6");
 
         foreach (var item in items)
         {
@@ -28,7 +29,7 @@ public class DropdownitemSelected : MonoBehaviour
 
         dropdown.onValueChanged.AddListener(delegate { dropdownitemselected(dropdown); });
 
-
+        
 
 
     }

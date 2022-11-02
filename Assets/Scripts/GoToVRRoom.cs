@@ -8,7 +8,7 @@ public class GoToVRRoom : MonoBehaviour
     public void StartBtn()
     {
 
-        SceneManager.LoadScene("VR room");
+        SceneManager.LoadScene("VR Room");
 
     }
 }
