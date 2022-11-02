@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 36954148}
   - component: {fileID: 36954147}
   - component: {fileID: 36954146}
+  - component: {fileID: 36954150}
   m_Layer: 0
   m_Name: top wall
   m_TagString: Untagged
@@ -175,7 +176,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e8f4fd7551db7d84da92683a467a7815, type: 2}
+  - {fileID: 2100000, guid: c4429419cc167cf4a8bf369eb406f0cf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -220,6 +221,19 @@ Transform:
   m_Father: {fileID: 152371748}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &36954150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36954145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b129646e4cda8e545a032b7f9507e120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mat: {fileID: 0}
 --- !u!1 &152371747
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,6 +243,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 152371748}
+  - component: {fileID: 152371749}
   m_Layer: 0
   m_Name: walls
   m_TagString: Untagged
@@ -257,6 +272,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &152371749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152371747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b129646e4cda8e545a032b7f9507e120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mat: {fileID: 0}
 --- !u!1 &191566373
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,6 +297,7 @@ GameObject:
   - component: {fileID: 191566376}
   - component: {fileID: 191566375}
   - component: {fileID: 191566374}
+  - component: {fileID: 191566378}
   m_Layer: 0
   m_Name: wall4
   m_TagString: Untagged
@@ -309,7 +338,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: eabb9fdd921314a4e9c1f587562ad47c, type: 2}
+  - {fileID: 2100000, guid: 4f563ffb690224da081ba575607a891a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -354,6 +383,19 @@ Transform:
   m_Father: {fileID: 152371748}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &191566378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191566373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b129646e4cda8e545a032b7f9507e120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mat: {fileID: 0}
 --- !u!1 &248994421
 GameObject:
   m_ObjectHideFlags: 0
@@ -1613,6 +1655,7 @@ GameObject:
   - component: {fileID: 1781478354}
   - component: {fileID: 1781478353}
   - component: {fileID: 1781478352}
+  - component: {fileID: 1781478356}
   m_Layer: 0
   m_Name: down wall
   m_TagString: Untagged
@@ -1654,7 +1697,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: de037d2f5a3b8b140bd924da4ee14dd3, type: 2}
+  - {fileID: 2100000, guid: 6dd4ce6511f0ca749bc503ce76b8214e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1699,6 +1742,19 @@ Transform:
   m_Father: {fileID: 152371748}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1781478356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781478351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b129646e4cda8e545a032b7f9507e120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mat: {fileID: 0}
 --- !u!1 &1783917529
 GameObject:
   m_ObjectHideFlags: 0
@@ -1779,6 +1835,7 @@ GameObject:
   - component: {fileID: 1817739680}
   - component: {fileID: 1817739679}
   - component: {fileID: 1817739678}
+  - component: {fileID: 1817739682}
   m_Layer: 0
   m_Name: wall1
   m_TagString: Untagged
@@ -1819,7 +1876,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: eabb9fdd921314a4e9c1f587562ad47c, type: 2}
+  - {fileID: 2100000, guid: c4429419cc167cf4a8bf369eb406f0cf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1864,6 +1921,19 @@ Transform:
   m_Father: {fileID: 152371748}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1817739682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817739677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b129646e4cda8e545a032b7f9507e120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mat: {fileID: 0}
 --- !u!1 &1862469272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1876,6 +1946,7 @@ GameObject:
   - component: {fileID: 1862469275}
   - component: {fileID: 1862469274}
   - component: {fileID: 1862469273}
+  - component: {fileID: 1862469277}
   m_Layer: 0
   m_Name: wall3
   m_TagString: Untagged
@@ -1916,7 +1987,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: eabb9fdd921314a4e9c1f587562ad47c, type: 2}
+  - {fileID: 2100000, guid: de037d2f5a3b8b140bd924da4ee14dd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1961,6 +2032,19 @@ Transform:
   m_Father: {fileID: 152371748}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1862469277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862469272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b129646e4cda8e545a032b7f9507e120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mat: {fileID: 0}
 --- !u!1 &1971469450
 GameObject:
   m_ObjectHideFlags: 0
@@ -1973,6 +2057,7 @@ GameObject:
   - component: {fileID: 1971469453}
   - component: {fileID: 1971469452}
   - component: {fileID: 1971469451}
+  - component: {fileID: 1971469455}
   m_Layer: 0
   m_Name: wall2
   m_TagString: Untagged
@@ -2013,7 +2098,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: eabb9fdd921314a4e9c1f587562ad47c, type: 2}
+  - {fileID: 2100000, guid: de037d2f5a3b8b140bd924da4ee14dd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2058,6 +2143,19 @@ Transform:
   m_Father: {fileID: 152371748}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1971469455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971469450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b129646e4cda8e545a032b7f9507e120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mat: {fileID: 0}
 --- !u!1 &2058169035
 GameObject:
   m_ObjectHideFlags: 0

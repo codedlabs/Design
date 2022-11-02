@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class GoToVRRoom : MonoBehaviour
 {
-    public void StartBtn()
+    public void intervrroom()
     {
 
-        SceneManager.LoadScene("VR Room");
+        SceneManager.LoadScene("4x4x4 module");
 
     }
 }
