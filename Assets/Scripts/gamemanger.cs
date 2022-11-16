@@ -6,18 +6,18 @@ public class gamemanger : MonoBehaviour
 {
     public Material mat;
     public GameObject obj;
+    public ColorPicker1 colr;
     // Start is called before the first frame update
     void Start()
     {
         obj = GameObject.FindGameObjectWithTag("Color");
-        ColorPicker1 colr = obj.GetComponent<ColorPicker1>();
-        mat = colr.currmat;
+        colr = obj.GetComponent<ColorPicker1>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        mat = colr.currmat;
     }
 
     private void Awake()
